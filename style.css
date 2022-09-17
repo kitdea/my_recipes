@@ -27,12 +27,14 @@ body {
   width: 100%;
   max-width: 500px;
   height: 500px;
+  border-radius: 1rem;
 }
 
 .rcp__container-list {
   width: 50%;
   margin: 3rem auto;
   background-color: #aa8be84b;
+  border-radius: 1rem;
   padding: 3rem;
   
 }
@@ -55,6 +57,7 @@ body {
 
 .rcp__title-list a {
   color: black;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 
