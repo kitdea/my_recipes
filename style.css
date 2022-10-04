@@ -95,11 +95,11 @@ body {
 }
 
 .btn-home {
-  
   position: -webkit-sticky;
   position: sticky;
-  bottom: 0;
+  bottom: 2rem;
   left: 100;
+  margin: 1rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -111,14 +111,17 @@ body {
 }
 
 .btn-home a {
-  color: #351E63;
+  color: #fff;
+  background-color: #351E63;
   text-decoration: none;
   transition: all .3s ease-in-out;
+  outline: none;
+  border: none;
 }
 
 .btn-home a:hover {
   color: #fff;
-  background-color: #351E63;
+  background-color: #482b81ea;
 }
 
 .rcp__lasagna-img, .rcp__pomodoro-img, .rcp__shrimp-img {
