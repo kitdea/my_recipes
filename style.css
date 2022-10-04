@@ -27,7 +27,8 @@ body {
 .rcp__title-img {
   width: 100%;
   max-width: 500px;
-  height: 500px;
+
+  max-height: 500px; 
   border-radius: 1rem;
 }
 
@@ -37,7 +38,26 @@ body {
   background-color: #aa8be84b;
   border-radius: 1rem;
   padding: 3rem;
-  
+}
+
+@media screen and (max-width: 1000px) {
+  .rcp__title {
+    font-size: 2rem;
+  }
+  .rcp__title-img {
+    width: 80%;
+    height: 50%;
+  }
+  .rcp__container-list {
+    width: 80%;
+  }
+  .rcp__container-title {
+    font-size: 1.4rem !important;
+  }
+
+  .rcp__title-list a {
+    font-size: 1.2rem !important;
+  }
 }
 
 .rcp__container-title {
@@ -93,5 +113,10 @@ body {
 .btn-home a {
   color: #351E63;
   text-decoration: none;
+}
+
+.rcp__lasagna-img {
+  width: 100%;
+  max-width: 500px;
 }
 
