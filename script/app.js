@@ -41,13 +41,13 @@ console.log(lastD);
 
 
 
-const ul = document.querySelector('.people');
-const people = ['dea', 'lucas', 'patricia', 'babette'];
+// const ul = document.querySelector('.people');
+// const people = ['dea', 'lucas', 'patricia', 'babette'];
 
-people.forEach((person) => {
-  ul.innerHTML += `<li style="color: purple">${person}</li>`;
+// people.forEach((person) => {
+//   ul.innerHTML += `<li style="color: purple">${person}</li>`;
    
-});
+// });
 
 // const bill = (products, tax) =>{
 //   let total = 0;
@@ -57,3 +57,15 @@ people.forEach((person) => {
 //   return total;
 // };
 // console.log(bill([10,15,30], 0.2));
+
+let answer = parseInt(prompt("What milk do you want: "));
+
+  // for (let str = 1; str <= answer; str++) {
+    if (answer % 2 === 0) {
+      console.log('Even');
+    } else {
+      console.log('Odd');
+    }
+    console.log(answer);
+  // }
+// console.log(answer);
