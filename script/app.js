@@ -58,14 +58,14 @@ console.log(lastD);
 // };
 // console.log(bill([10,15,30], 0.2));
 
-let answer = parseInt(prompt("What milk do you want: "));
+// let answer = parseInt(prompt("What milk do you want: "));
 
   // for (let str = 1; str <= answer; str++) {
-    if (answer % 2 === 0) {
-      console.log('Even');
-    } else {
-      console.log('Odd');
-    }
-    console.log(answer);
+    // if (answer % 2 === 0) {
+    //   console.log('Even');
+    // } else {
+    //   console.log('Odd');
+    // }
+    // console.log(answer);
   // }
 // console.log(answer);
